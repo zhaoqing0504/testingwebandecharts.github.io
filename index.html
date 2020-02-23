@@ -1,0 +1,60 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon type=image/x-ico href=./assets/logogithub.ico><title>vuestudy</title><link href=./static/css/app.51345c9cfd948947e497a3d78014580e.css rel=stylesheet></head><style lang=less scoped>/* 创建三个相等的列 */
+.leftcolumn {
+  float: left;
+  width: 50%;
+  height: 500px;
+  border: 0.5px dashed #e6e2e5;
+  box-sizing: border-box;
+
+}
+
+.rightcolumn {
+  width:50%;
+  height: 500px;
+  float: left;
+  /* margin-left: 1px; */
+  border: 0.5px dashed #e6e2e5;
+  box-sizing: border-box;
+
+}
+ 
+/* 列后清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 响应式布局 - 小于 600 px 时改为上下布局 */
+@media screen and (max-width: 600px) {
+  .leftcolumn,.rightcolumn {
+    width: 100%;
+  }
+}
+/*分列*/
+.el-row {
+    margin-bottom: 5px;
+
+  }
+  .el-col {
+    border-radius: 0px;
+  }
+
+  .bg-purple-dark {
+    background: #99a9bf;
+  }
+  .bg-purple {
+    background: #d3dce6;
+  }
+  .bg-purple-light {
+    background: #e5e9f2;
+  }
+  .grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
+  .row-bg {
+    padding: 10px 0;
+    background-color: #f9fafc;
+  }
+/*上面是element的分栏*/</style><body><div id=app></div><script type=text/javascript src=./static/js/manifest.f87c1e9054e766ac5a4a.js></script><script type=text/javascript src=./static/js/vendor.adc7badf295a49b229bb.js></script><script type=text/javascript src=./static/js/app.ab2797ce037a8a06488e.js></script></body></html>
